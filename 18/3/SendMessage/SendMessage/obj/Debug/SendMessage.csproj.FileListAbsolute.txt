@@ -1,0 +1,14 @@
+C:\Users\kinde\Desktop\SendMessage\SendMessage\bin\Debug\SendMessage.exe.config
+C:\Users\kinde\Desktop\SendMessage\SendMessage\bin\Debug\SendMessage.exe
+C:\Users\kinde\Desktop\SendMessage\SendMessage\bin\Debug\SendMessage.pdb
+C:\Users\kinde\Desktop\SendMessage\SendMessage\obj\Debug\SendMessage.csproj.AssemblyReference.cache
+C:\Users\kinde\Desktop\SendMessage\SendMessage\obj\Debug\SendMessage.csproj.CoreCompileInputs.cache
+C:\Users\kinde\Desktop\SendMessage\SendMessage\obj\Debug\SendMessage.exe
+C:\Users\kinde\Desktop\SendMessage\SendMessage\obj\Debug\SendMessage.pdb
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\bin\Debug\SendMessage.exe.config
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\bin\Debug\SendMessage.exe
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\bin\Debug\SendMessage.pdb
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\obj\Debug\SendMessage.csproj.AssemblyReference.cache
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\obj\Debug\SendMessage.csproj.CoreCompileInputs.cache
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\obj\Debug\SendMessage.exe
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\3\SendMessage\SendMessage\obj\Debug\SendMessage.pdb

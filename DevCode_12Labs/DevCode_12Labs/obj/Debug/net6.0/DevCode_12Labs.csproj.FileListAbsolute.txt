@@ -1,0 +1,14 @@
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\bin\Debug\net6.0\DevCode_12Labs.exe
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\bin\Debug\net6.0\DevCode_12Labs.deps.json
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\bin\Debug\net6.0\DevCode_12Labs.runtimeconfig.json
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\bin\Debug\net6.0\DevCode_12Labs.dll
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\bin\Debug\net6.0\DevCode_12Labs.pdb
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.AssemblyInfoInputs.cache
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.AssemblyInfo.cs
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.csproj.CoreCompileInputs.cache
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.dll
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\refint\DevCode_12Labs.dll
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.pdb
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\DevCode_12Labs.genruntimeconfig.cache
+C:\Users\Степан\Desktop\work\learn_ersh\DevCode_12Labs\DevCode_12Labs\obj\Debug\net6.0\ref\DevCode_12Labs.dll

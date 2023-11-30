@@ -1,0 +1,11 @@
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem(разработка кода 17 лаба).csproj.AssemblyReference.cache
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem(разработка кода 17 лаба).csproj.SuggestedBindingRedirects.cache
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem_разработка_кода_17_лаба_.ExpertSystemForm.resources
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem_разработка_кода_17_лаба_.Properties.Resources.resources
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem(разработка кода 17 лаба).csproj.GenerateResource.cache
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem(разработка кода 17 лаба).csproj.CoreCompileInputs.cache
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\bin\Debug\ExpertSystem(разработка кода 17 лаба).exe.config
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\bin\Debug\ExpertSystem(разработка кода 17 лаба).exe
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\bin\Debug\ExpertSystem(разработка кода 17 лаба).pdb
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem(разработка кода 17 лаба).exe
+D:\visual studio\projects\ExpertSystem(разработка кода 17 лаба)\ExpertSystem(разработка кода 17 лаба)\obj\Debug\ExpertSystem(разработка кода 17 лаба).pdb

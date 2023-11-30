@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WpfApp1" Height="350" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Выбрать файл" Grid.Row="0" Margin="10" Click="OpenFile_Click"/>
+        <ComboBox x:Name="EncodingComboBox" Grid.Row="1" Margin="10">
+            <ComboBoxItem Content="UTF-8"/>
+            <ComboBoxItem Content="Win1251"/>
+            <ComboBoxItem Content="DOS 866"/>
+        </ComboBox>
+
+        <TextBlock x:Name="FileContentTextBlock" Grid.Row="4" Margin="10"/>
+    </Grid>
+</Window>

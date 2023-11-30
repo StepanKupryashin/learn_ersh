@@ -1,0 +1,18 @@
+C:\Users\kinde\Desktop\POP3\POP3\bin\Debug\POP3.exe.config
+C:\Users\kinde\Desktop\POP3\POP3\bin\Debug\POP3.exe
+C:\Users\kinde\Desktop\POP3\POP3\bin\Debug\POP3.pdb
+C:\Users\kinde\Desktop\POP3\POP3\bin\Debug\OpenPop.dll
+C:\Users\kinde\Desktop\POP3\POP3\obj\Debug\POP3.csproj.AssemblyReference.cache
+C:\Users\kinde\Desktop\POP3\POP3\obj\Debug\POP3.csproj.CoreCompileInputs.cache
+C:\Users\kinde\Desktop\POP3\POP3\obj\Debug\POP3.csproj.CopyComplete
+C:\Users\kinde\Desktop\POP3\POP3\obj\Debug\POP3.exe
+C:\Users\kinde\Desktop\POP3\POP3\obj\Debug\POP3.pdb
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\bin\Debug\POP3.exe.config
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\bin\Debug\POP3.exe
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\bin\Debug\POP3.pdb
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\bin\Debug\OpenPop.dll
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\obj\Debug\POP3.csproj.AssemblyReference.cache
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\obj\Debug\POP3.csproj.CoreCompileInputs.cache
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\obj\Debug\POP3.csproj.CopyComplete
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\obj\Debug\POP3.exe
+C:\Users\Степан\Downloads\Telegram Desktop\18RK\4\POP3\POP3\obj\Debug\POP3.pdb
