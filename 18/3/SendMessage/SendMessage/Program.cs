@@ -20,7 +20,7 @@ namespace SendMessage
             m.Body = $"{Console.ReadLine()}<br/>Отправлено с лабы.";
             m.IsBodyHtml = true;
             SmtpClient smtp = new SmtpClient("smtp.yandex.ru", 587);
-            smtp.Credentials = new NetworkCredential("kupryashin.stepan@yandex.ru", "nemeckiy228");
+            smtp.Credentials = new NetworkCredential("kupryashin.stepan@yandex.ru", "пароль");
             smtp.EnableSsl = true;
 
             smtp.Send(m);

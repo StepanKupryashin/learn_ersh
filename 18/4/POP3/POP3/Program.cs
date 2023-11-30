@@ -16,7 +16,7 @@ namespace POP3
             Pop3Client client = new Pop3Client();
             MessageModel message = new MessageModel();
             client.Connect("pop.yandex.ru", 995, true);
-            client.Authenticate("kupryashin.stepan@yandex.ru", "nemeckiy228");
+            client.Authenticate("kupryashin.stepan@yandex.ru", "пароль");
 
             try
             {
