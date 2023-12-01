@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -46,6 +47,18 @@ namespace WindowsFormsApp1
             // сброс предыдущей траектории и времени
             trajectoryPoints.Clear();
             t = 0;
+            chart1.Series["Series1"].Points.Clear();
+            chart1.ChartAreas[0].AxisY.Minimum = 0;
+            chart1.ChartAreas[0].AxisY.Maximum = 500;
+            chart1.ChartAreas[0].AxisX.Minimum = 0;
+            chart1.ChartAreas[0].AxisX.Maximum = 500;
+            chart1.Series["Series1"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            foreach (var point in trajectoryPoints)
+            {
+                //MessageBox.Show($"{point.X} {point.Y}");
+                chart1.Series["Series1"].Points.AddXY((int)point.X, (int)point.Y);
+            }
+
 
             // запуск таймера для отрисовки снаряда
             timer.Enabled = true;
@@ -54,10 +67,10 @@ namespace WindowsFormsApp1
         {
             t += 0.01;
             double radians = a * (Math.PI / 180);  // преобразование градусов в радианы
-            x = (V * Math.Cos(radians)) * t;
-            y = h + (V * Math.Sin(radians)) * t - g * t * t / 2;
+            x = (float)(V * Math.Cos(radians) * t);
+            y = (float)(V * Math.Sin(radians) * t) - (0.5 * g * (t * t)) + h;
             this.Text = x.ToString() + " " + y.ToString();
-            trajectoryPoints.Add(new PointF((float)(50 * x), (float)(400 - 50 * y)));  // сохранение текущих координат снаряда
+            trajectoryPoints.Add(new PointF((float)(50 * x), (float)(y)));  // сохранение текущих координат снаряда
             Invalidate();
             if (y <= 0)  // проверка, достиг ли снаряд метки 0 по горизонтали
             {
@@ -70,24 +83,28 @@ namespace WindowsFormsApp1
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         void Form1_Paint(object sender, PaintEventArgs e)
         {
-            // рисование снаряда
-            foreach (var point in trajectoryPoints)  // отрисовка всех точек траектории
+            chart1.ChartAreas[0].AxisY.Minimum = 0;
+            chart1.ChartAreas[0].AxisY.Maximum = 500;
+            chart1.ChartAreas[0].AxisX.Minimum = 0;
+            chart1.ChartAreas[0].AxisX.Maximum = 500;
+            chart1.Series["Series1"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            foreach (var point in trajectoryPoints)
             {
-                e.Graphics.FillRectangle(Brushes.Red, new Rectangle((int)point.X, (int)point.Y, 5, 5));
-            }
-            // рисование горизонтальной разметки
-            for (int i = 0; i <= 800; i += 50)  
-            {
-                e.Graphics.DrawLine(Pens.Gray, i, 0, i, 400);  // рисование вертикальных линий
-                e.Graphics.DrawString((i / 50).ToString(), this.Font, Brushes.Black, i, 400);  // рисование меток
-            }
-            // рисование вертикальной разметки
-            for (int i = 0; i <= 400; i += 50)  
-            {
-                e.Graphics.DrawLine(Pens.Gray, 0, i, 800, i);  // рисование горизонтальных линий
-                e.Graphics.DrawString(((400 - i) / 50).ToString(), this.Font, Brushes.Black, 0, i);  // рисование меток
+                //MessageBox.Show($"{point.X} {point.Y}");
+
+                chart1.Series["Series1"].Points.AddXY((int)point.X, (int)point.Y);
             }
         }
     }
