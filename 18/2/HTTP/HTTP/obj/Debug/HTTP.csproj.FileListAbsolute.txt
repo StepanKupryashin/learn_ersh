@@ -5,3 +5,11 @@ C:\Users\kinde\Desktop\HTTP\HTTP\obj\Debug\HTTP.csproj.AssemblyReference.cache
 C:\Users\kinde\Desktop\HTTP\HTTP\obj\Debug\HTTP.csproj.CoreCompileInputs.cache
 C:\Users\kinde\Desktop\HTTP\HTTP\obj\Debug\HTTP.exe
 C:\Users\kinde\Desktop\HTTP\HTTP\obj\Debug\HTTP.pdb
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\bin\Debug\HTTP.exe.config
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\bin\Debug\HTTP.exe
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\bin\Debug\HTTP.pdb
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\obj\Debug\HTTP.csproj.AssemblyReference.cache
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\obj\Debug\HTTP.csproj.SuggestedBindingRedirects.cache
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\obj\Debug\HTTP.csproj.CoreCompileInputs.cache
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\obj\Debug\HTTP.exe
+C:\Users\X_daydeneg_X\Desktop\learn_ersh\18\2\HTTP\HTTP\obj\Debug\HTTP.pdb

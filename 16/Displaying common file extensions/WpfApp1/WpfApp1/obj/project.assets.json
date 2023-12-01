@@ -3197,23 +3197,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qutho\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\X_daydeneg_X\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qutho\\OneDrive\\Рабочий стол\\Лабы\\Ерошевич\\16\\Displaying common file extensions\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\X_daydeneg_X\\Desktop\\learn_ersh\\16\\Displaying common file extensions\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\qutho\\OneDrive\\Рабочий стол\\Лабы\\Ерошевич\\16\\Displaying common file extensions\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-      "packagesPath": "C:\\Users\\qutho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qutho\\OneDrive\\Рабочий стол\\Лабы\\Ерошевич\\16\\Displaying common file extensions\\WpfApp1\\WpfApp1\\obj\\",
+      "projectPath": "C:\\Users\\X_daydeneg_X\\Desktop\\learn_ersh\\16\\Displaying common file extensions\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "packagesPath": "C:\\Users\\X_daydeneg_X\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\X_daydeneg_X\\Desktop\\learn_ersh\\16\\Displaying common file extensions\\WpfApp1\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\qutho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\X_daydeneg_X\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3264,7 +3264,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

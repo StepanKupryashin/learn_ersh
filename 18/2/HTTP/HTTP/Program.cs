@@ -9,7 +9,7 @@ class HTTP
     static void Main(string[] args)
     {
         int port = 8080; // Указанный порт
-        string directoryPath = "C:\\Users\\kinde\\Desktop\\Web"; // Путь к каталогу с файлами для сервера
+        string directoryPath = "C:\\Users\\X_daydeneg_X\\Desktop\\learn_ersh\\18\\2\\Web\\"; // Путь к каталогу с файлами для сервера
 
         TcpListener listener = new TcpListener(IPAddress.Any, port);
         listener.Start();
@@ -33,20 +33,34 @@ class HTTP
                 if (File.Exists(filePath))
                 {
                     string contentType = "text/plain";
-                    if (requestedFile.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase))
+                    if (requestedFile.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) || requestedFile.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
                     {
                         contentType = "image/jpeg";
+
+
+                        byte[] fileData = File.ReadAllBytes(filePath);
+                        string response = $"HTTP/1.1 200 OK\r\nContent-Type: {contentType}\r\nContent-Length: {fileData.Length}\r\n\r\n";
+
+                        byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                        stream.Write(responseBytes, 0, responseBytes.Length);
+                        stream.Write(fileData, 0, fileData.Length);
+
                     }
+                    if (requestedFile.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
+                    {
+                        StreamReader sr = new StreamReader(filePath);
 
-                    byte[] fileData = File.ReadAllBytes(filePath);
-                    string response = $"HTTP/1.1 200 OK\r\nContent-Type: {contentType}\r\nContent-Length: {fileData.Length}\r\n\r\n";
+                        string s = sr.ReadToEnd();
 
-                    byte[] responseBytes = Encoding.UTF8.GetBytes(response);
-                    stream.Write(responseBytes, 0, responseBytes.Length);
-                    stream.Write(fileData, 0, fileData.Length);
+                        string response = $"HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<h1>{s}</h1>";
+
+                        byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                        stream.Write(responseBytes, 0, responseBytes.Length);
+
+                    }
                 }
                 else
-                {
+                    {
                     string notFoundResponse = "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\n<h1>Message</h1>";
                     byte[] notFoundBytes = Encoding.UTF8.GetBytes(notFoundResponse);
                     stream.Write(notFoundBytes, 0, notFoundBytes.Length);
